@@ -26,7 +26,6 @@ themeSwitcherChekbox.addEventListener('change', changeTheme)
        
 function changeTheme(evt) {
    
-
     if (evt.target.checked) {
         body.classList.replace(Theme.LIGHT, Theme.DARK);
         localStorage.setItem ('theme', Theme.DARK)
@@ -35,9 +34,7 @@ function changeTheme(evt) {
         body.classList.replace(Theme.DARK, Theme.LIGHT)
          localStorage.setItem ('theme', Theme.LIGHT)
     }
-   
  
-
 }
 
 function setLastChoosenTheme () {
