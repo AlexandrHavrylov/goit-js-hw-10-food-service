@@ -11,4 +11,4 @@ var e,t=arguments[3];!function(t,r){"object"==typeof exports&&"object"==typeof m
 },{"handlebars/dist/handlebars.runtime":"pAws"}],"Focm":[function(require,module,exports) {
 "use strict";var e=c(require("./sass/main.scss")),t=c(require("./menu.json")),s=c(require("./templetes/menu_items.hbs"));function c(e){return e&&e.__esModule?e:{default:e}}const r=document.querySelector(".js-menu");r.innerHTML=(0,s.default)(t.default);const a={LIGHT:"light-theme",DARK:"dark-theme"},l=document.querySelector("#theme-switch-toggle"),n=document.querySelector("body");function o(e){e.target.checked?(n.classList.replace(a.LIGHT,a.DARK),localStorage.setItem("theme",a.DARK)):(n.classList.replace(a.DARK,a.LIGHT),localStorage.setItem("theme",a.LIGHT))}function u(){localStorage.getItem("theme")===a.DARK&&(n.classList.replace(a.LIGHT,a.DARK),l.checked=!0)}n.classList.add(a.LIGHT),l.addEventListener("change",o),u();
 },{"./sass/main.scss":"clu1","./menu.json":"mA8c","./templetes/menu_items.hbs":"nQPN"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-10-food-service/src.f53beb2b.js.map
+//# sourceMappingURL=/goit-js-hw-10-food-service/src.c06edcc6.js.map
