@@ -23,9 +23,7 @@ body.classList.add(Theme.LIGHT)
 
 
 themeSwitcherChekbox.addEventListener('change', changeTheme)
-    
-    
-    
+       
 function changeTheme(evt) {
    
 
